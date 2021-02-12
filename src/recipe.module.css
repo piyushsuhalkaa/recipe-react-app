@@ -21,6 +21,7 @@
 }
 .recipe img {
   width: 300px;
+  border-radius: 10px;
 }
 .recipe a {
   font-size: 18px;

@@ -38,6 +38,7 @@ const App = () => {
         <input
           className='search-bar'
           type='text'
+          placeholder='Search Recipe'
           value={search}
           onChange={updateSearch}
         />
@@ -50,7 +51,7 @@ const App = () => {
           <Recipe
             key={recipe.recipe.label}
             title={recipe.recipe.label}
-            calories={recipe.recipe.calories}
+            calories={recipe.recipe.dietLabels}
             image={recipe.recipe.image}
             link={recipe.recipe.url}
           />
