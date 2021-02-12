@@ -1,0 +1,32 @@
+.recipe {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(70, 69, 69);
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: wheat;
+}
+.recipe h1 {
+  font-size: 20px;
+  padding: 10px;
+  margin: 0;
+  align-items: center;
+}
+.recipe p {
+  font-size: 18px;
+}
+.recipe img {
+  width: 300px;
+}
+.recipe a {
+  font-size: 18px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}

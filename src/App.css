@@ -1,17 +1,34 @@
 .App {
-  text-align: center;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 .search-form {
-  padding: 20px;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.search-input {
-  padding: 20px;
-  margin: 20px;
-  font-size: 20px;
+.search-bar {
+  width: 40%;
+  border: 2px solid gray;
+  border-right: none;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
 }
 .search-btn {
-  color: blue;
-  font-size: 20px;
-  padding: 20px;
-  margin: 20px;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border: 2px solid gray;
+  border-left: none;
+}
+.search-btn img {
+  width: 15px;
+  padding: 0;
+}
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
